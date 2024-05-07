@@ -4,7 +4,7 @@ import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@
 import { formatCurrency, formatNumber } from "@/lib/formatters";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 import { MoreVertical } from "lucide-react";
-import { DeleteDropDownItem } from "../users/_components/UserActions";
+import { DeleteDropDownItem } from "../orders/_components/OrderActions";
 
 function getOrders(){
     return db.order.findMany({
